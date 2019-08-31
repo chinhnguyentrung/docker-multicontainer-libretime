@@ -95,7 +95,6 @@ RUN git clone https://github.com/x42/silan.git /opt/silan && \
 # SEE: https://github.com/LibreTime/libretime/issues/192 - For further details around this.
 
 RUN apt-get remove liquidsoap -y && \
-
     # install system packages like opam (the make tools are for the 1.3.x+scm install below)
     apt-get install ocaml ocaml-native-compilers camlp4-extra opam autotools-dev automake -y && \
     #
